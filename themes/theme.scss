@@ -257,11 +257,14 @@ html[accessable-theme="accessible"] {
 		  }
   
 		  .sb-explore-container {
+  
 			.explore-more-books,
 			.explore-more-content {
 			  height: 3.5rem !important;
 			}
+  
 		  }
+  
 		}
   
 		#mediumScroll .pill {
@@ -316,14 +319,14 @@ html[accessable-theme="accessible"] {
 	  .contacts .email.light .value {
 		color: #595959 !important;
 	  }
-  
-	  .trainings {
-		.ion-text-center {
-		  .txt-capitalize {
+	  .trainings{
+		.ion-text-center{
+		  .txt-capitalize{
 			height: 3.5rem !important;
 		  }
 		}
 	  }
+	
   
 	  .contacts .phone .value {
 		color: #595959 !important;
@@ -357,6 +360,7 @@ html[accessable-theme="accessible"] {
 		width: 100%;
 		height: 100%;
 	  }
+  
 	}
   
 	sb-pills-grid {
@@ -377,8 +381,7 @@ html[accessable-theme="accessible"] {
 		  height: 3.4rem !important;
 		}
 	  }
-  
-	  ion-button.badge.md.button.button-outline {
+	  ion-button.badge.md.button.button-outline{
 		color: white;
 		height: 3.5rem;
 	  }
@@ -391,15 +394,13 @@ html[accessable-theme="accessible"] {
 		}
 	  }
 	}
-  
-	sb-dt-card-actions {
-	  .card-icons-red {
-		color: #b30909;
+	sb-dt-card-actions{
+	  .card-icons-red{
+		color: #B30909;
 	  }
 	}
-  
-	app-consent-pii-popup {
-	  .btn-info button {
+	app-consent-pii-popup{
+	  .btn-info button{
 		padding: 16px 16px !important;
 	  }
 	}
@@ -414,6 +415,7 @@ html[accessable-theme="accessible"] {
 		  padding-top: 11px !important;
 		  padding-bottom: 11px !important;
 		}
+  
 	  }
   
 	  .sb-card-actions .action-btn.delete {
@@ -432,211 +434,298 @@ html[accessable-theme="accessible"] {
 		}
 	  }
 	}
-  
-	app-profile {
-	  .trainings {
-		.refresh-icon {
+	app-profile{
+	  .trainings{
+		.refresh-icon{
 		  height: 48px !important;
 		  width: 48px !important;
 		}
 	  }
-  
-	  .edit-options {
-		.custom-round {
+	  .edit-options{
+		.custom-round{
 		  height: 3.5rem !important;
 		}
 	  }
-  
 	  .school-details {
-		.custom-round {
+		.custom-round{
 		  height: 3.5rem;
 		}
-	  }
   
-	  .contacts {
-		.email {
-		  padding: 16px 24px !important;
-		}
-  
-		.phone {
-		  padding: 16px 24px !important;
-		}
 	  }
+	 .contacts {
+	  .email{
+		padding: 16px 24px !important;
+	  }
+	 .phone{
+	  padding: 16px 24px !important;
+	 }
+	 }
 	}
-  
-	.flex-nowrap {
-	  .training-1 {
-		.fw {
+	.flex-nowrap{
+	  .training-1{
+		.fw{
 		  height: 3.5rem;
 		}
 	  }
 	}
-  
-	.bottom-block {
-	  .custom-round {
+	.bottom-block{
+	  .custom-round{
 		height: 3.5rem !important;
 	  }
 	}
-  
-	sb-course-cards-hlist {
-	  .layout-course {
-		.sb-btn-white {
+	sb-course-cards-hlist{
+	  .layout-course{
+		.sb-btn-white{
 		  padding: 16px !important;
 		  height: auto !important;
 		}
 	  }
 	}
-  
-	.menu-section {
-	  .another-user-title {
+	.menu-section{
+	  .another-user-title{
 		padding: 16px 16px !important;
 	  }
 	}
-  
-	.sb-recently-viewed-container {
+	.sb-recently-viewed-container{
 	  padding-bottom: 60px !important;
 	}
-  
-	.sb-content-info-container {
-	  .sb-content-info-card {
-		.read-more {
+	.sb-content-info-container{
+	  .sb-content-info-card{
+		.read-more{
 		  padding-top: 14px !important;
-		  padding-bottom: 14px !important;
+	  padding-bottom: 14px !important;
 		}
 	  }
 	}
-  
-	.sb-popover .sb-popover-footer .sb-popover-action-btn {
-	  height: 48px !important;
+	.sb-popover .sb-popover-footer .sb-popover-action-btn{
+	  height: 48px!important;
 	}
-  
-	.content-share .share-desc {
+	.content-share .share-desc{
 	  color: #515151 !important;
 	}
-  
-	sb-library-card {
-	  .sb--card__main-area {
-		.menu::after {
+	sb-library-card{
+	  .sb--card__main-area{
+		.menu::after{
 		  width: 3.5rem;
 		  height: 3.5rem;
 		  color: #000000;
+	  }
 		}
 	  }
-	}
-  
-	app-group-details {
-	  .gd-member-search .gd-member-search-icon {
-		top: 14px;
-		left: 12px;
+	  app-group-details{
+		.gd-member-search .gd-member-search-icon{
+		  top: 14px;
+		  left: 12px;
+		}
+		.gd-member-search input{
+		  padding: 12px 0px 12px 40px !important;
+		  height: auto !important;
+		}
+		.gd-page{
+		  .gd-member-search .gd-member-search-icon{
+			top: 14px !important;
+			left: 12px !important;
+		  }
+		}
+	 
 	  }
-  
-	  .gd-member-search input {
-		padding: 12px 0px 12px 40px !important;
-		height: auto !important;
-	  }
-  
-	  .gd-page {
-		.gd-member-search .gd-member-search-icon {
-		  top: 14px !important;
-		  left: 12px !important;
+	  app-activity-details{
+		.gd-member-search input{
+		  padding: 12px 0px 12px 40px !important;
+		  height: auto !important;
+		}
+		.gd-member-search .gd-member-search-icon{
+		  top: 29px !important;
+		  left: 21px !important;
+		}
+		.ad-member-container{
+		  .ad-timestamp-container span {
+			padding: 12px;
+			height: auto;
+		}
 		}
 	  }
-	}
-  
-	app-enrolled-course-details-page {
-	  .card-content-bottom-0 {
-		.segment-button-has-label-only {
+	  app-enrolled-course-details-page{
+		.card-content-bottom-0{
+		.segment-button-has-label-only{
 		  color: #024f9d !important;
 		}
-	  }
-	}
-  
-	app-license-card-component {
-	  .card-content-md {
-		.view-credits {
-		  padding: 13px !important;
 		}
 	  }
-	}
-  
-	sb-member-card {
-	  .sb-members-list-item--medium .menu::after {
-		width: 3.5rem;
-		height: 3.5rem;
+	  app-license-card-component{
+		.card-content-md{
+		  .view-credits{
+			padding: 13px !important;
+		  }
+		}
 	  }
+	  sb-member-card{
+		.sb-members-list-item--medium .menu::after{
+		  width: 3.5rem;
+	  height: 3.5rem;
+		}
+		.sb-members-list-item .status{
+		  padding: 16px !important;
+		}
   
-	  .sb-members-list-item .status {
-		padding: 16px !important;
 	  }
-	}
-  
-	app-detail-card {
-	  .sb-grade-pills-container div {
-		padding: 16px !important;
-		height: 3.5rem !important;
-	  }
-	}
-  
-	.collection-etb-filter {
-	  .sb-grade-pills-container div {
-		padding: 16px !important;
-		height: 3.5rem !important;
-	  }
-	}
-  
-	sb-toc-card {
-	  .sbchapter__item {
-		button.sbchapter__play__btn {
+	  app-detail-card{
+		.sb-grade-pills-container div{
+		  padding: 16px !important;
 		  height: 3.5rem !important;
 		}
 	  }
-	}
-  
-	.sb-content-info-card {
-	  .read-more div {
-		padding-top: 14px !important;
-		padding-bottom: 14px !important;
+	  .collection-etb-filter{
+		.sb-grade-pills-container div{
+		  padding: 16px !important;
+		  height: 3.5rem !important;
+		}
 	  }
-	}
-  
-	.sb-popover-container {
-	  .sb-popover-items {
-		padding: 20px !important;
+	  sb-toc-card{
+		.sbchapter__item{
+		  button.sbchapter__play__btn{
+			height: 3.5rem !important;
+		  }
+		}
 	  }
-	}
-  
-	.sb-popover .sb-popover-title ion-icon {
-	  .sb-modal-close {
-		height: 48px !important;
-		width: 60px !important;
+	  .sb-content-info-card{
+		.read-more div{
+		  padding-top: 14px !important;
+	  padding-bottom: 14px !important;
+		}
 	  }
-	}
-  
-	.sb-dt-card-actions {
-	  .card-icons-red {
-		font-size: 30px;
-		color: #b30909 !important;
+	  .sb-popover-container{
+		.sb-popover-items{
+		  padding: 20px!important;
+		}
 	  }
-	}
-  
-	.sb-popover-items {
-	  .popover-ratings {
-		ion-buttons.sc-ion-buttons-md-h {
+	  .sb-popover .sb-popover-title ion-icon{
+		.sb-modal-close{
+		  height: 48px!important;
+		  width: 60px!important;
+		}
+	  }
+	  .sb-dt-card-actions{
+		.card-icons-red {
+		  font-size: 30px;
+		  color: #B30909 !important;
+	  }
+	  }
+	  .sb-popover-items{
+		.popover-ratings{
+		  ion-buttons.sc-ion-buttons-md-h{
+			padding: 8px !important;
+		  }
+		.app-rate-btn-outline{
+		  height: 3.5rem !important;
+		}
+		.app-rate-btn{
+		  height: 3.5rem !important;
+		}
+		.sc-ion-buttons-md-h{
+		  ion-icon.md.hydrated{
+			color: #575757;
+		  }
+		}
+		.sc-ion-buttons-md-s .button-has-icon-only{
+		  height: 3.5rem !important;
+	  
+		}
+	  }
+	  }
+	  ion-footer ion-button{
+		height: 3.5rem!important;
+	  }
+	
+	  app-content-rating-alert{
+		.sc-ion-buttons-md-h{
 		  padding: 8px !important;
 		}
-  
-		.app-rate-btn-outline {
-		  height: 3.5rem !important;
+		ion-icon.sb-modal-close{
+		  height: 48px!important;
+		}
+	  }
+	  .sb-popover .sb-popover-container .sb-popover-items .sb-popover-content-details .main-title .meta-info{
+		color: #515151 !important;
+	  }
+	  sb-multiple-dropdown{
+		.multi-select-section{
+		  .multi-select-container .list-border{
+			padding: 1.7rem !important;
+		  }
+		}
+	  }
+	  .footer{
+		.block-button-save{
+		  padding: 1rem !important;
+		}
+	  }
+	  app-about-us{
+		ion-button.md.button.button-clear.ion-activatable.ion-focusable{
+		  width: 48px !important;
+		  height: 48px !important;
+		  ion-icon.md.hydrated{
+			height: 48px;
+		  }
 		}
   
-		.app-rate-btn {
+	  }
+	  .sb-card-download-container .sb-card .img-container{
+		margin: 20px 0 !important;
+	  }
+	  app-data-sync{
+		.can-go-back{
+		  ion-button{
+			height: 3.5rem !important;
+		  }
+		}
+		ion-button.button-clear{
+		  height: 3.5rem !important;
+		}
+		ion-button.MT16.md.button.button-block{
+		  height: 3.5rem;
+		}
+  
+	  }
+	  .changePermissionAccess {
+		.permission-container{
+		  .permission-toggle{
+			padding: 0.6rem !important;
+		  }
+		}
+	   
+	  }
+	  app-sb-share-popup{
+		.popover-viewport {
+		  height: 48px!important;
+		}
+	  }
+	  app-about-us{
+		ion-label.sc-ion-label-md-h h2 {
+		  padding-top: 5px !important;
+		  padding-bottom: 5px !important;
+	  }
+	  .toolbar-title-default{
+		ion-button.button.button-clear {
+		  width: 48px !important;
+		  height: 48px !important;
+	  }
+	  }
+	  }
+	  sb-course-card{
+		.sb--card--course{
+		  span.data_1.sb__ellipsis.sb__ellipsis--two{
+			color: #575757 !important;
+		  }
+		}
+	  }
+	  app-sub-profile-edit{
+		ion-footer ion-button{
+		  height: 48px !important;
+		}
+		input.native-input.sc-ion-input-md{
 		  height: 3.5rem !important;
 		}
 	  }
-	}
-  
-	ion-footer ion-button {
-	  height: 3.5rem !important;
-	}
   }
   
