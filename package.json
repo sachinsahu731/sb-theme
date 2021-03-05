@@ -1,6 +1,6 @@
 {
   "name": "sb-theme",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sachinsahu731/sb-theme"
+    "url": "https://github.com/Sunbird-Ed/sb-themes.git"
   },
   "author": "",
   "license": "ISC"

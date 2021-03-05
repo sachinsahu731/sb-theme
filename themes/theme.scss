@@ -594,11 +594,7 @@ html[accessable-theme="accessible"] {
 	  padding-bottom: 14px !important;
 		}
 	  }
-	  .sb-popover-container{
-		.sb-popover-items{
-		  padding: 20px!important;
-		}
-	  }
+
 	  .sb-popover .sb-popover-title ion-icon{
 		.sb-modal-close{
 		  height: 48px!important;
@@ -638,9 +634,6 @@ html[accessable-theme="accessible"] {
 	  }
 	
 	  app-content-rating-alert{
-		.sc-ion-buttons-md-h{
-		  padding: 8px !important;
-		}
 		ion-icon.sb-modal-close{
 		  height: 48px!important;
 		}
